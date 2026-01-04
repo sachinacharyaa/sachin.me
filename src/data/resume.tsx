@@ -51,7 +51,7 @@ Chatting with llms.
         url: "https://linkedin.com/sachinacharyaa",
         icon: Icons.linkedin,
 
-        navbar: true,
+        navbar: false,
       },
       X: {
         name: "X",
@@ -80,7 +80,7 @@ Chatting with llms.
       start: "Oct 2024",
       end: "Feb 2025",
       description:
-        "Paper about Strengthen Robutness",
+        "Paper about Strengthening Robustness to Adversarial Prompts: The Role of Multi-Agent Conversations in Large Language Models",
     },
     // {
     //   company: "Shopify",
@@ -100,7 +100,7 @@ Chatting with llms.
     {
       school: "Westcliff University",
       href: "https://www.westcliff.edu/",
-      degree: "Bachelor's Degree of Computer Science (BSCS)",
+      degree: "Bachelor's of Science, Computer Science (BSCS)",
       logoUrl: "/westclif.png",
       start: "2025",
       end: "2028",

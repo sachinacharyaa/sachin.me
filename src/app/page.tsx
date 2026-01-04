@@ -128,7 +128,7 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on twitter/email
                 </Link>{" "}
                 and I&apos;ll respond whenever I can.
               </p>
