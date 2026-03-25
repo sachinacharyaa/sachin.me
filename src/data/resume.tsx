@@ -1,6 +1,5 @@
-
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon} from "lucide-react";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Sachin Acharya",
@@ -8,18 +7,11 @@ export const DATA = {
   url: "https://sachin-acharya.com",
   location: "Kathmandu, Nepal",
   locationLink: "https://www.google.com/maps/place/kathmandu",
-  description:
-    " I love building things and sharing about it.",
+  description: " I love building things and sharing about it.",
 
-     summary: `
-I like technology — it matters.
-
-Probably living in terminal.
-
-Chatting with llms.
+  summary: `
+I like technology- its as a way of thinking, building and understanding the world around me.
 `,
-
-
 
   avatarUrl: "/me.jpeg",
   skills: [
@@ -95,7 +87,6 @@ Chatting with llms.
     //   description:
     //     "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     // },
-    
   ],
   education: [
     {
@@ -105,7 +96,7 @@ Chatting with llms.
       logoUrl: "/westclif.png",
       start: "2025",
       end: "2028",
-    }
+    },
     // {
     //   company: "Nvidia",
     //   href: "https://nvidia.com/",
@@ -155,7 +146,7 @@ Chatting with llms.
     //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     // },
   ],
-  
+
   projects: [
     // {
     //   title: "Chat Collect",
@@ -186,11 +177,6 @@ Chatting with llms.
     //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     // },
     // {
-
   ],
-  hackathons: [
-   
-  ],
-  
- 
+  hackathons: [],
 } as const;
